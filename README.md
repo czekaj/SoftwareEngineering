@@ -24,3 +24,13 @@
    > Distributed Systems are difficult to build and test for two main reasons: partial failure & asynchrony. These two realities of distributed systems must be addressed to create a correct system, and often times the resulting systems have a high degree of complexity. Because of this complexity, testing and verifying these systems is critically important. In this talk we will discuss strategies for proving a system is correct, like formal methods. We will also discuss less strenuous methods of testing which will help increase our confidence that our systems are doing the right thing.
    
    > Caitie McCaffrey is a Backend Brat and Distributed Systems Diva at Twitter
+
+## Databases
+
+#### Databases - Case Studies
+
+* [Using Redis at Scale at Twitter - Rashmi Ramesh](https://www.youtube.com/watch?v=QznaOSk20nU) YouTube, 40 min, Jul 5, 2017
+   * Nighthawk / distributed caching with Redis
+   > Timelines, DMs, Twitter Analytics are just some of the major services at Twitter that use Redis. A majority of our analytics services use lambda architecture and they require a highly available cache to store and read stream compute data, while their corresponding batch processing jobs catch up. Our caching solution, built on top of Redis, offers replication for such services requiring a highly available, scalable cache, serving millions of requests per second. In this session, we’ll cover the architecture, constraints and some problems of distributed caching we are trying to tackle today. We’ll also touch upon data partitioning, data movement, failure domain considerations and how we leverage Redis features to achieve the same.
+   
+   > Slide deck https://www.slideshare.net/RedisLabs/redisconf17-using-redis-at-scale-twitter
