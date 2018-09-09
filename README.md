@@ -3,8 +3,19 @@
 
 ## System Design and Architecture
 
+[Software Architecture tutorial](http://tutorials.jenkov.com/software-architecture/index.html) (article)
+  * Great review of different types of software architectures
+     * Single process
+     * Client / Server (2 processes collaborating)
+     * 3 Tier systems (3 processes collaborating in chains)
+     * N Tier systems (N processes collaborating in chains)
+     * Service oriented architecture (lots of processes interacting with each other)
+     * Peer-to-peer architecture (lots of processes interacting without a central server)
+     * Hybrid architectures - combinations of the above architectures
+
 [Core Design Principles for Software Developers by Venkat Subramaniam](https://www.youtube.com/watch?v=llGgO74uXMI) YouTube, 2h 36 min, Nov 11, 2015
    > Writing code is easy. Writing good quality code is an entirely different story. How can we measure quality of design? How do we know we're doing the right set of things that will leads us to a better design? In this session we will learn about some core software design principles that help programmers everyday. Instead of talking about theory and what we could potentially do, we will take on multiple examples, discuss the solution, pros and cons, and bring out key design principles that have an impact on the outcome.
+   
 
 ## Distributed Systems
 
@@ -24,6 +35,13 @@
 [High Scalability blog - Building bigger, faster, more reliable websites](http://highscalability.com/all-time-favorites/) (articles)
   * Lots of links to great case studies
 
+[Scalability for Dummies](http://www.lecloud.net/tagged/scalability) (articles)
+  * Series of 4 articles
+  * Introduction to scalability
+  * Quite basic
+  
+[System Design and Scalability tutorial for interview prep](https://www.hiredintech.com/classrooms/system-design/lesson/52) (articles & videos)
+  * Step by step system design interview prep with examples
   
 #### Distributed Systems - Case Studies
 [How We Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc) YouTube, 1h 8 min, Feb 22, 2012
