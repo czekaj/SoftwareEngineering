@@ -24,6 +24,11 @@
    > Distributed Systems are difficult to build and test for two main reasons: partial failure & asynchrony. These two realities of distributed systems must be addressed to create a correct system, and often times the resulting systems have a high degree of complexity. Because of this complexity, testing and verifying these systems is critically important. In this talk we will discuss strategies for proving a system is correct, like formal methods. We will also discuss less strenuous methods of testing which will help increase our confidence that our systems are doing the right thing.
    
    > Caitie McCaffrey is a Backend Brat and Distributed Systems Diva at Twitter
+   
+* ["Caching at Netflix: The Hidden Microservice" by Scott Mansfield](https://www.youtube.com/watch?v=Rzdxgx3RC0Q) YouTube, 35 min, Sep 17, 2016
+   > Netflix is well known for championing the microservice model, but within the complex layers of dependencies is a hidden service: the caching layer. The Netflix customer experience relies heavily on caches to provide a high-volume, low latency, globally available data layer that backs our stateless services. Throughout a typical customer experience, from sitting down on the couch through playing a movie, caches play a role in every interaction. The use cases here range from session storage to video history to subscriber status, all of which benefit from the stability and fault tolerance of EVCache, the primary caching system in use at Netflix.
+
+   > The second part of the talk will peek under the hood of EVCache and its open source components: the EVCache client library, Rend, Memcached, and the not-yet-open-source Mnemonic. We will also look at sister projects that make up the rest of the EVCache ecosystem within Netflix. All of these components combined make up a high-volume, low-latency persistence system that fits many different use cases, even some where a cache might not normally be an obvious choice.
 
 ## Databases
 
