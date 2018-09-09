@@ -21,6 +21,8 @@
   * Master's thesis on web scalability principles
   * Good for review
   
+[High Scalability blog - Building bigger, faster, more reliable websites](http://highscalability.com/all-time-favorites/) (articles)
+  * Lots of links to great case studies
 
   
 #### Distributed Systems - Case Studies
