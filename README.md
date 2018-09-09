@@ -1,6 +1,12 @@
 # My favorite Software Engineering resources
 ***
-## System Design
+
+## System Design and Architecture
+
+* [Core Design Principles for Software Developers by Venkat Subramaniam](https://www.youtube.com/watch?v=llGgO74uXMI) YouTube, 2h 36 min, Nov 11, 2015
+   > Writing code is easy. Writing good quality code is an entirely different story. How can we measure quality of design? How do we know we're doing the right set of things that will leads us to a better design? In this session we will learn about some core software design principles that help programmers everyday. Instead of talking about theory and what we could potentially do, we will take on multiple examples, discuss the solution, pros and cons, and bring out key design principles that have an impact on the outcome.
+
+## Distributed Systems
 
 [Concurrent Programming for Scalable Web Architectures](http://berb.github.io/diploma-thesis/community/index.html) (document)
   * Master's thesis on web scalability principles
@@ -10,7 +16,7 @@
   * Must-read, distributed systems bible
   * Extremely comprehensive
   
-#### System Design - Case studies
+#### Distributed Systems - Case Studies
 * [How We Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc) YouTube, 1h 8 min, Feb 22, 2012
    > Kevin Modzelewski talks about Dropbox and its History. He describes the technological issues faced by Dropbox and the actions they have to take in order to continuously improve it.
 * [Four Distributed Systems Architectural Patterns by Tim Berglund](https://www.youtube.com/watch?v=tpspO9K28PM) YouTube, 50 min, Aug 2, 2017
@@ -30,12 +36,18 @@
 
    > The second part of the talk will peek under the hood of EVCache and its open source components: the EVCache client library, Rend, Memcached, and the not-yet-open-source Mnemonic. We will also look at sister projects that make up the rest of the EVCache ecosystem within Netflix. All of these components combined make up a high-volume, low-latency persistence system that fits many different use cases, even some where a cache might not normally be an obvious choice.
 
-## Databases
-
-#### Databases - Case Studies
-
 * [Using Redis at Scale at Twitter - Rashmi Ramesh](https://www.youtube.com/watch?v=QznaOSk20nU) YouTube, 40 min, Jul 5, 2017
    * Nighthawk / distributed caching with Redis
    > Timelines, DMs, Twitter Analytics are just some of the major services at Twitter that use Redis. A majority of our analytics services use lambda architecture and they require a highly available cache to store and read stream compute data, while their corresponding batch processing jobs catch up. Our caching solution, built on top of Redis, offers replication for such services requiring a highly available, scalable cache, serving millions of requests per second. In this session, we’ll cover the architecture, constraints and some problems of distributed caching we are trying to tackle today. We’ll also touch upon data partitioning, data movement, failure domain considerations and how we leverage Redis features to achieve the same.
    
    > Slide deck https://www.slideshare.net/RedisLabs/redisconf17-using-redis-at-scale-twitter
+
+
+## Java
+
+* [Refactor your Java EE application using Microservices and Containers by Arun Gupta](https://www.youtube.com/watch?v=iJVW7v8O9BU) YouTube, 2h 26 min, Nov 11, 2015
+   > Microservices allow to decompose a monolithic application into cohesive and multiple decoupled services. Each service is running in its own process and communicate using lightweight mechanisms, such as HTTP API. These services are built around business capabilities or functional decomposition. Microservice also enables true polyglot architecture – both in terms of language and data. It truly allows you to employ the right tool for the right job. Each service is independently deployable and lends very well to fully automated deployment machinery.
+
+   > Can you take an existing Java EE application and decompose it into microservices? What tools are required to enable CI/CD? How does it enable polyglot? What are different design patterns for microservices? What options are available for Service Discovery, distributed logging, load balancing? What tools do you need to manage such services? Is the complexity being pushed around from service implementation to orchestration?
+
+   > This session will explain how to refactor an existing monolith into microservices and the complexities and benefits it introduces.
